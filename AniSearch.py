@@ -3,6 +3,7 @@ import urllib, requests
 
 class AniSearch(object):
   """ How To Use
+  --Dont forget add from AniSearch import AniSearch on __init__.py--
   ani_ = LIBNAME.AniSearch('path/to/file')
   ret_ = ani_.post_image()
   data_ = ani_.get_data(ret_)
