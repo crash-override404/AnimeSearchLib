@@ -1,8 +1,13 @@
-# AnimeSearchLib
-Original from nugra\n
-First, add in __init__.py:\n
-from AniSearch import AniSearch\n
-Second, use this code Untried:\n
+# Anime Search
+Original from nugra
+
+fixing some error and delete unusable code 
+
+## Require to use
+```
+First, add in init.py:
+from AniSearch import AniSearch
+Second, use this code Nb : Untried:
   ani_ = LIBNAME.AniSearch('path/to/file')
   ret_ = ani_.post_image()
   data_ = ani_.get_data(ret_)
@@ -16,3 +21,4 @@ Second, use this code Untried:\n
   image = data_[0]['thumbnail']
   client.sendImageWithURL(image)
   client.sendText(msg.to,"Name English:\n%s\nName Japan:\n%s\nGenres:\n%s\nSeries:\n%s\nSeason:\n%s\nVideo:\n%s\nThumbnail:\n%s", %(str(name_en),str(name_jp),str(genre),str(series_type),str(season),str(video),str(image)))
+```
